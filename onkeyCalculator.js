@@ -38,5 +38,6 @@ document.onkeydown = (k) => {
     printCal.innerText = "";
     preCal.innerText = "";
     signHolder.innerText = "";
+    result = 0;
   }
 };
