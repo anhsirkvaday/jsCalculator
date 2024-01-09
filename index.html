@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="calculator.js" defer></script>
+    <script src="onkeyCalculator.js" defer></script>
+</head>
+<body>
+    <div class="calculator">
+        <div>
+            <span id="preCal">Krishna</span>
+            <span id="sign"></span>
+        </div>
+        <p id="print">0
+        </p>
+        <table>
+            <tr>
+                <td onclick="calculate(this)">%</td>
+                <td onclick="calculate(this)">CE</td>
+                <td onclick="calculate(this)">C</td>
+                <td onclick="calculate(this)"><-</td>
+            </tr>
+            <tr>
+                <td onclick="calculate(this)">7</td>
+                <td onclick="calculate(this)">8</td>
+                <td onclick="calculate(this)">9</td>
+                <td onclick="calculate(this)">/</td>
+            </tr>
+            <tr>
+                <td onclick="calculate(this)">4</td>
+                <td onclick="calculate(this)">5</td>
+                <td onclick="calculate(this)">6</td>
+                <td onclick="calculate(this)">x</td>
+            </tr>
+            <tr>
+                <td onclick="calculate(this)">3</td>
+                <td onclick="calculate(this)">2</td>
+                <td onclick="calculate(this)">1</td>
+                <td onclick="calculate(this)">-</td>
+            </tr>
+            <tr>
+                <td onclick="calculate(this)">.</td>
+                <td onclick="calculate(this)">0</td>
+                <td onclick="calculate(this)">=</td>
+                <td onclick="calculate(this)">+</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
